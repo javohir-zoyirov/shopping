@@ -50,7 +50,6 @@ export const Registr = () => {
         }}
       >
         <Option value="998">+998</Option>
-        <Option value="7">+7</Option>
       </Select>
     </Form.Item>
   );
@@ -92,6 +91,8 @@ export const Registr = () => {
         }}
         style={{
           maxWidth: 600,
+          padding:20,
+          textAlign:"center"
         }}
         scrollToFirstError
       >
@@ -167,7 +168,7 @@ export const Registr = () => {
           {contextHolder}
           <Button
             onClick={() => {
-              status === true ? openMessage() : warning() 
+              status === true ? openMessage() : warning(); navigate("/")
             }}
             type="primary"
             htmlType="submit"
