@@ -209,7 +209,7 @@ export const HomePage = () => {
       >
         <div class="container">
           <div style={{cursor:"pointer"}} class="navbar-brand fw-bold" href="#">
-            <img style={{width:'100px', height:"40px"}} className="w-100 object-fit-cover rounded-3" src="https://img.freepik.com/premium-vector/delivery-service-font-logo-with-delivery-truck-courier_1639-29659.jpg" />
+            <img style={{width:'100px', height:"40px"}} className="object-fit-cover rounded-3" src="https://img.freepik.com/premium-vector/delivery-service-font-logo-with-delivery-truck-courier_1639-29659.jpg" />
           </div>
           <button
             class="navbar-toggler"
@@ -397,7 +397,7 @@ export const HomePage = () => {
               </Checkbox>
             </Form.Item>
             <Form.Item className="" {...tailFormItemLayout}>
-              <Button className="w-50 mb-3" type="primary" htmlType="submit">
+              <Button onClick={handleOk} className="w-50 mb-3" type="primary" htmlType="submit">
                 Register
               </Button>
               <br />

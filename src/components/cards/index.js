@@ -56,7 +56,7 @@ export const Cards = () => {
           >
             <img
               style={{ width: "100px", height: "40px" }}
-              className="w-100 object-fit-cover rounded-3"
+              className="object-fit-cover rounded-3"
               src="https://img.freepik.com/premium-vector/delivery-service-font-logo-with-delivery-truck-courier_1639-29659.jpg"
             />
           </div>
@@ -151,8 +151,8 @@ export const Cards = () => {
               style={{
                 boxShadow: "0px 0px 21px 0px rgba(34, 60, 80, 0.2)",
                 cursor: "pointer",
+                height:"100%"
               }}
-              className="h-100vh"
             >
               <div
                 onClick={() => {

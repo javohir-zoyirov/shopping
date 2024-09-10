@@ -91,7 +91,7 @@ export const AboutProduct = () => {
           >
             <img
               style={{ width: "100px", height: "40px" }}
-              className="w-100 object-fit-cover rounded-3"
+              className="object-fit-cover rounded-3"
               src="https://img.freepik.com/premium-vector/delivery-service-font-logo-with-delivery-truck-courier_1639-29659.jpg"
             />
           </div>
